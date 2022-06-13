@@ -769,6 +769,15 @@ h3.my-professiopn
 }
 @media(max-width: 750px)
 {
+    .about .about-content .education
+    {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .about .about-content .experience
+    {
+        display:none;
+    }
     .contact .contact-info-item
     {
         flex: 0 0 50%;
